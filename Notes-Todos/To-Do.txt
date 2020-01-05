@@ -1,0 +1,11 @@
+TO-DO:
+
+1. Create footer with dummy links(<-- DONE), social media icons(<-- DONE), and trademark/copyright
+    -Github --CREATED
+    -Twitter --CREATED
+    -Facebook --CREATED
+    -Snapchat --CREATED
+2. Implement navigation  
+3. Fix search bar for devices smaller than large devices (Search Bar is out of proportion with collapsable menu)
+4. Create different pages/components (Home, About, Contact, Stuff <-- new name)
+5.Add functionality to search bar

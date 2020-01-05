@@ -1,12 +1,13 @@
 import React from "react";
-import Navlink from "../elements/Navlink";
+import Navlink from "../elements/nav/Navlink";
+import Navbrand from "../elements/nav/Navbrand";
 
 const Navbar = props => {
   return (
     <div>
-      <nav className='navbar navbar-expand-lg bg-dark'>
-        <a href='#' className='navbar-brand'>
-          <Navlink className='fas fa-barcode fa-2x'></Navlink>
+      <nav className="navbar navbar-expand-lg bg-dark fixed-top">
+        <a href="#" className="navbar-brand" data-toggle="tooltip" data-placement="bottom" title="JB-Coding&trade;">
+          <Navbrand className='fas fa-barcode fa-2x'></Navbrand>
         </a>
 
         <button

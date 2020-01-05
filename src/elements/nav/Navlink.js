@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export default styled.i`
-    color: red;
+export default styled.a`
+    color: firebrick;
     &:hover {
-        color: white;
+        color: aliceblue;
     }
     /* background: ${props => props.primary ? "red" : "white"};
     color: ${props => props.primary ? "white" : "red"}; */
