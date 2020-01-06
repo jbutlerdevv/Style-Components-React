@@ -1,4 +1,0 @@
-1/5/2020:
---FIXED
-Using Bootstrap navbar toggler. The Hamburger menu is visible but appears as a blank box. Tried using the Navbrand as the button element and using the "as" attribute and setting to "button". Not working. Tried changing the background color of the navbar and still invisible on devices smaller than large. 
-

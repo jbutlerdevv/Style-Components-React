@@ -1,11 +1,20 @@
 TO-DO:
 
-1. Create footer with dummy links(<-- DONE), social media icons(<-- DONE), and trademark/copyright
+1.Add functionality to search bar
+2. Create DB and connect to it (MongoDB?)
+3. Implement Back-End (Express?)
+
+
+DONE-LIST:
+
+1. Create footer with dummy links(<-- DONE), social media icons(<-- DONE), and trademark/copyrights(<-- DONE)
     -Github --CREATED
     -Twitter --CREATED
     -Facebook --CREATED
     -Snapchat --CREATED
-2. Implement navigation  
-3. Fix search bar for devices smaller than large devices (Search Bar is out of proportion with collapsable menu)
-4. Create different pages/components (Home, About, Contact, Stuff <-- new name)
-5.Add functionality to search bar
+    a. NEED TO FIGURE OUT STICKY FOOTER (right now footer is fixed-bottom which is not ideal)(<-- DONE)
+    b. NEED TO FIX FOOTER ON device-width greater than 1024px (<-- DONE)
+2. Implement navigation(<-- DONE, Basic navigation is working)
+3. Fix search bar for devices smaller than large devices (Search Bar is out of proportion with collapsable menu) (<-- DONE)
+4. Create different pages/components (Home, About, Contact, Stuff <-- new name) (<-- DONE)
+6. Create Media Queries for each device size accordingly (<-- DONE)

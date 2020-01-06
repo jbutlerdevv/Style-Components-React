@@ -24,10 +24,10 @@ const Navbar = props => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav d-flex justify-content-around w-100">
             <li className="nav-item">
-              <Navlink as="a" className="nav-link" href="#">Home</Navlink>
+              <Navlink as="a" className="nav-link" href="/">Home</Navlink>
             </li>
             <li className="nav-item">
-              <Navlink as="a" className="nav-link" href="#">About</Navlink>
+              <Navlink as="a" className="nav-link" href="/about">About</Navlink>
             </li>
             <li>
               <form className="form-inline d-none d-lg-block">
@@ -40,10 +40,10 @@ const Navbar = props => {
               </form>
             </li>
             <li className="nav-item">
-              <Navlink as="a" className="nav-link" href="#">Contact</Navlink>
+              <Navlink as="a" className="nav-link" href="/contact">Contact</Navlink>
             </li>
             <li className="nav-item">
-              <Navlink as="a" className="nav-link" href="#">Stuff</Navlink>
+              <Navlink as="a" className="nav-link" href="/stuff">Stuff</Navlink>
             </li>
           </ul>
           <div className="form-inline input-group p-0 d-lg-none col-md-8">
