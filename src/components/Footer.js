@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import Navlink from '../elements/nav/Navlink';
-import Footersticky from '../elements/footer/Footersticky';
 
 const Footer = props => {
     return (
         <div>
-            <Footersticky as="footer" className="footer">
+            <footer className="footer">
                 <nav className="navbar bg-dark">
                     {/* <a className="navbar-brand" href="#">Navbar</a> */}
 
@@ -66,7 +65,7 @@ const Footer = props => {
                     </div>
                     <div className="row col-md-12 justify-content-around">
                         <p className="text-muted">Contact us by navigating to the
-                                <Navlink href="#">
+                                <Navlink href="/contact">
                                     <em> Contact </em>
                                 </Navlink>
                             page
@@ -76,7 +75,7 @@ const Footer = props => {
 
                 </nav>
                 
-            </Footersticky>
+            </footer>
 
         </div>
     )

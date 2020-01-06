@@ -2,8 +2,11 @@ body {
   text-align: center;
 }
 
+/*-------------MEDIA QUERIES----------------*/
+
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) and (max-width: 823px) {
+
+@media only screen and (min-width: 320px) and (max-width: 823px) {
   body {
     margin-top: 15%;
   }
@@ -14,6 +17,7 @@ body {
 }
 
 /* Devices or manual screen size changes */
+
 @media only screen and (min-width: 824px) and (max-width: 1224px) {
   body {
     margin-top: 10%;
@@ -21,6 +25,7 @@ body {
 }
 
 /* Smartphones (portrait) ----------- */
+
 @media only screen and (max-width: 416px) {
   body {
     margin-top: 22%;
@@ -32,16 +37,23 @@ body {
 }
 
 /* iPads (landscape) ----------- */
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   body {
     margin-top: 10%;
   }
+  .footer {
+    bottom: 0;
+    width: 100%;
+  }
 }
 
 /* iPads (portrait) ----------- */
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   body {
     margin-top: 15%;
+    margin-bottom: 50%;
   }
   .footer {
     position: fixed;
@@ -55,9 +67,10 @@ body {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
+
+@media only screen and (min-device-width: 1224px) {
   body {
-    margin-top: 10%;
+    margin-top: 6%;
   }
   .footer {
     bottom: 0;
@@ -66,4 +79,7 @@ body {
 }
 
 /* Large screens ----------- */
+
 @media only screen and (min-width: 1824px) {}
+
+/*-------------END MEDIA QUERIES----------------*/

@@ -6,7 +6,7 @@ const Navbar = props => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-dark fixed-top">
-        <a href="#" className="navbar-brand" data-toggle="tooltip" data-placement="bottom" title="JB-Coding&trade;">
+        <a href="/" className="navbar-brand" data-toggle="tooltip" data-placement="bottom" title="JB-Coding&trade;">
           <Navbrand className='fas fa-barcode fa-2x'></Navbrand>
         </a>
 
@@ -27,7 +27,10 @@ const Navbar = props => {
               <Navlink as="a" className="nav-link" href="/">Home</Navlink>
             </li>
             <li className="nav-item">
-              <Navlink as="a" className="nav-link" href="/about">About</Navlink>
+              <Navlink as="a" className="nav-link" href="/login">Login</Navlink>
+            </li>
+            <li className="nav-item">
+              <Navlink as="a" className="nav-link" href="/signup">Signup</Navlink>
             </li>
             <li>
               <form className="form-inline d-none d-lg-block">
@@ -38,6 +41,9 @@ const Navbar = props => {
                   aria-label="Search" />
                 <button className="btn btn-outline-danger" type="submit">Search</button>
               </form>
+            </li>
+            <li className="nav-item">
+              <Navlink as="a" className="nav-link" href="/about">About</Navlink>
             </li>
             <li className="nav-item">
               <Navlink as="a" className="nav-link" href="/contact">Contact</Navlink>
